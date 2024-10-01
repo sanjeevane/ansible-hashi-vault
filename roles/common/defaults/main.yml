@@ -1,3 +1,5 @@
+// testing
+
 ---
 rhel_centos_6: '{{(ansible_distribution == "CentOS" or ansible_distribution == "RedHat") and ansible_distribution_major_version == "6"}}'
 rhel_centos_7: '{{(ansible_distribution == "CentOS" or ansible_distribution == "RedHat") and ansible_distribution_major_version == "7"}}'
