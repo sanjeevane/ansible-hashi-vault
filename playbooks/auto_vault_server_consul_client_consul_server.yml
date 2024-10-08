@@ -1,4 +1,4 @@
-
+// details about Ansible vault usage (@sanjeevane)
 - name: Deploy consul client
   hosts: vault
   become: true
